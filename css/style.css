@@ -1,0 +1,61 @@
+/* common css starts */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    width: 1170px;
+    margin: auto;}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    }
+    .align-center{ align-items: center;
+        
+    }
+/* common css ends */
+/* navbar starts here */
+
+nav .logo{
+    width: 50%;
+}
+nav .menu{
+    width:50%;
+    text-align: right;
+}
+nav{
+    background-color: #02918c;
+}
+nav.menu ul li{
+    display: inline-block;
+    text-align: right;
+}
+ul {
+    display: flex;  
+    
+}
+
+nav .menu ul a{
+    color: white;
+    font-weight: 800;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 26px 25px;
+    display: block;
+    text-align: right;
+}
+
+
+
+
+/* navbar ends here */
